@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  background-color: lightblue;
+  width: 600px;
+
+  margin: 0 auto;
+}
+
+section div {
+  display: block;
+  width: 300px;
+  height: 100px;
+
+  background-color: red;
+
+  /*margin: 0 auto;*/
+}
+
+#my-block {
+ width: 300px;
+ height: 150px;
+
+ background-color: orange;
+}
+
+span {
+  width: 100px;
+  height: 50px;
+
+  display: inline-block;
+
+  background-color: green;
+  border: 1px solid yellow;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+#my-inline {
+  width: 300px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  padding: 30px;
+
+  border: 20px solid red;
+}
